@@ -61,7 +61,7 @@ The project is divided into modular files for better maintainability and scalabi
 ├── model.py              # Contains the linear regression model and gradient descent function
 ├── evaluation.py         # Evaluation metrics (MAE, MSE, RMSE)
 ├── visualization.py      # Visualization functions for plotting results
-└── Salary_Data.csv       # Dataset file (not included in the repo)
+└── Salary_Data.csv       # Dataset file
 ```
 
 ### File Descriptions
@@ -69,7 +69,7 @@ The project is divided into modular files for better maintainability and scalabi
 - data_preprocessing.py: Contains the load_and_preprocess_data function for data loading and preprocessing (scaling, splitting).
 - model.py: Defines the LinearRegression model class and the gradient descent function for training.
 - evaluation.py: Provides the functions to calculate evaluation metrics: MAE, MSE, and RMSE.
-- visualization.py: Contains the plot_results function to visualize training, testing, and model prediction data.
+- visualization.py: Visualize training, testing, and model prediction data.
 
 ## Results
 After training, the model's performance on the test data is evaluated with MAE, MSE, and RMSE metrics, and a graph showing model predictions versus actual data is displayed. These results can be used to assess the model's accuracy.
