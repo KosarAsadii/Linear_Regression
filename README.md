@@ -1,4 +1,4 @@
-# Linear Regression Model for Salary Prediction
+# Linear Regression Using Gradient Descent
 
 This project implements a linear regression model to predict salaries based on years of experience using PyTorch and Scikit-learn. The project is modularized to ensure maintainability, scalability, and readability.
 
